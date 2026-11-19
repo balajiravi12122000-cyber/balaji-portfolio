@@ -1,19 +1,15 @@
-# Balaji Ravi — Portfolio Website
+# Balaji Ravi — Portfolio
 
-Static HTML, CSS and JavaScript portfolio.
+This archive updates the existing static portfolio while preserving its original dark navy / teal design and root-level Cloudflare Pages structure.
 
 ## Files
-- `index.html` — portfolio content, SEO metadata and Person structured data
-- `styles.css` — responsive styling
-- `script.js` — mobile navigation interactions
-- `assets/` — profile image, favicon, social preview and downloadable resume
-- `robots.txt` and `sitemap.xml` — search engine discovery
+- `index.html`, `styles.css`, `script.js` — website source
+- `assets/balaji-ravi.jpg` — optimized supplied portrait
+- `assets/Balaji_Ravi_Resume.pdf` — updated one-page resume
+- `assets/social-preview.png` — 1200 × 630 social sharing image
+- `assets/favicon.svg`, `site.webmanifest`, `robots.txt`, `sitemap.xml` — site metadata
 
-## Deploy
-Cloudflare Pages → Connect to Git → `balaji-portfolio`
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/`
-- Production branch: `main`
+## Deployment
+The intended GitHub repository is `balajiravi12122000-cyber/balaji-portfolio`, branch `main`. Cloudflare Pages should continue to build from the repository root with no build command and `/` as the output directory. Do not deploy this archive to a Worker or another repository.
 
-After each update, push the changed files to the `main` branch. Cloudflare Pages will deploy automatically.
+Before pushing, back up the existing local folder and preserve its `.git` directory. See the PowerShell commands supplied with the delivery.
